@@ -8,7 +8,7 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 server = app.server
 app.layout = html.Div([
-    html.H6("Basic git example10"),
+    html.H6("Basic git example11"),
     html.Div(["Input: ",
               dcc.Input(id='my-input', value='initial value', type='text')]),
     html.Br(),
