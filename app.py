@@ -6,7 +6,7 @@ from dash.dependencies import Input, Output
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
-
+server = app.server
 app.layout = html.Div([
     html.H6("Git update 2."),
     html.Div(["Input: ",
