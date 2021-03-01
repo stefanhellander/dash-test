@@ -1,1 +1,1 @@
-dash_bootstrap
+dash-bootstrap-components
