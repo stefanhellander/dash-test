@@ -31,7 +31,7 @@ app.layout = html.Div([
                     id='upload-data',
                     children=html.Div([
                         'Drag and Drop or ',
-                        html.A('Select File')
+                        html.A('Select File (JPG)')
                     ]),
                     style={
                         'width': '100%',
@@ -40,7 +40,8 @@ app.layout = html.Div([
                         'borderWidth': '1px',
                         'borderStyle': 'dashed',
                         'borderRadius': '5px',
-                        'textAlign': 'center'
+                        'textAlign': 'center',
+                        'font-size': '17px'
                         # 'margin': '10px'
                     },
                     # Allow multiple files to be uploaded
