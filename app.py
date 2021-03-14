@@ -70,7 +70,7 @@ def update_output(list_of_contents, list_of_names, list_of_dates):
     # for content in list_of_contents:
     # print(list_of_contents)
     image_html = []
-    url = 'https://torch-serve-model-deploy-lok-ea9b.studio-dev.local.stackn.dev/predictions/densenet161'
+    url = 'https://https://torch-serve-mnist-demo-guk-4d5f.studio-dev.local.stackn.dev/predictions/vgg11_scripted'
     pred_res = ""
     try:
         content_type, content_string = list_of_contents.split(',')
