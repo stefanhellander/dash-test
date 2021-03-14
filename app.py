@@ -67,6 +67,7 @@ app.layout = html.Div([
               State('upload-data', 'filename'),
               State('upload-data', 'last_modified'))
 def update_output(list_of_contents, list_of_names, list_of_dates):
+    print("In: update output", flush=True)
     # for content in list_of_contents:
     # print(list_of_contents)
     image_html = []
